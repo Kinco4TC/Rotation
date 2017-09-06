@@ -1,0 +1,177 @@
+html, body {
+  height: 100%; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+.indexImg {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: 100%; }
+  .indexImg .bgImgs {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+    overflow: hidden; }
+    .indexImg .bgImgs .bg-img {
+      position: absolute;
+      width: 31000px;
+      height: 100%;
+      left: -1920px; }
+      .indexImg .bgImgs .bg-img .img {
+        width: 1920px;
+        height: 100%;
+        float: left;
+        z-index: 1; }
+  .indexImg .bgGray {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.3;
+    z-index: 5; }
+  .indexImg .navibar-dots {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    z-index: 100;
+    height: 50px;
+    line-height: 50px;
+    text-align: center; }
+    .indexImg .navibar-dots .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 10px;
+      margin: 0px 10px;
+      display: inline-block;
+      background-color: #fff;
+      opacity: 0.5;
+      cursor: pointer; }
+    .indexImg .navibar-dots .active {
+      opacity: 1;
+      width: 12px;
+      height: 12px;
+      border-radius: 12px; }
+  .indexImg .indexText {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    text-align: left;
+    height: 74.6820%; }
+    .indexImg .indexText .container {
+      height: 100%; }
+      .indexImg .indexText .container .row {
+        height: 100%; }
+    .indexImg .indexText p {
+      color: #fff13e;
+      margin-top: 6.8111%;
+      margin-left: 3rem;
+      font-size: 5rem;
+      font-weight: bold; }
+    .indexImg .indexText .bars {
+      margin-left: 3rem;
+      width: 27.5rem;
+      margin-top: 1.54798%;
+      border-bottom: 1px solid #fff13e;
+      height: 2rem; }
+      .indexImg .indexText .bars .bar {
+        cursor: pointer;
+        float: left;
+        width: auto;
+        margin-right: 1rem;
+        margin-left: 0.2rem;
+        font-size: 1.2rem;
+        color: #fff13e;
+        height: 2rem;
+        line-height: 2rem;
+        padding-left: 0.3rem;
+        padding-right: 0.3rem; }
+      .indexImg .indexText .bars .activeBar {
+        color: #fff;
+        border-bottom: 3px solid #fff; }
+    .indexImg .indexText .Copywritingss {
+      height: 20.833%;
+      position: relative;
+      width: 27.5rem;
+      margin-left: 3rem;
+      overflow: hidden; }
+      .indexImg .indexText .Copywritingss .Copywritings {
+        width: 555555555px;
+        position: absolute;
+        height: 100%;
+        top: 0;
+        left: -550px; }
+        .indexImg .indexText .Copywritingss .Copywritings .Copywriting {
+          float: left;
+          padding-top: 1.5rem;
+          width: 27.5rem;
+          height: 100%;
+          line-height: 40px;
+          color: #fff;
+          font-size: 0.75rem; }
+    .indexImg .indexText .a-btn {
+      margin-left: 3rem;
+      margin-top: 1.54798%;
+      width: 15.5rem;
+      height: 2.5rem;
+      color: #000;
+      font-size: 1.2rem;
+      text-align: center;
+      line-height: 2.5rem;
+      background-color: #fff13e;
+      border-radius: 1.5rem;
+      letter-spacing: 3px; }
+    .indexImg .indexText .phone {
+      margin-left: 3rem;
+      margin-top: 8.3333%;
+      width: 16rem;
+      height: 13.8888%;
+      font-size: 1.2rem;
+      border-radius: 0.5rem;
+      border: 1px solid #fff13e;
+      text-align: center;
+      color: #fff; }
+      .indexImg .indexText .phone .t1 {
+        margin-top: 0.11%;
+        display: inline-block; }
+      .indexImg .indexText .phone .t2 {
+        color: #fff13e; }
+      .indexImg .indexText .phone .t3 {
+        color: #fe6e2f; }
+      .indexImg .indexText .phone .phoneInput {
+        float: left;
+        margin-left: 0.3rem;
+        width: 10rem;
+        height: 30%;
+        line-height: 1.5rem;
+        border-radius: 1.2rem;
+        background-color: #fff;
+        margin-top: 0.65rem;
+        color: #333;
+        text-align: left;
+        position: relative;
+        overflow: hidden; }
+        .indexImg .indexText .phone .phoneInput span {
+          margin-left: 0.6rem; }
+        .indexImg .indexText .phone .phoneInput input:focus {
+          outline: 0; }
+      .indexImg .indexText .phone .confirm-btn {
+        float: right;
+        margin-right: 0.3rem;
+        width: 5rem;
+        height: 1.5rem;
+        line-height: 1.5rem;
+        border-radius: 1.2rem;
+        background-color: #fff13e;
+        margin-top: 0.65rem;
+        color: #000;
+        font-size: 0.8rem;
+        border: 0; }
+    .indexImg .indexText a {
+      text-decoration: none; }
+
+/*# sourceMappingURL=example.css.map */
